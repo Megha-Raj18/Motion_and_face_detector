@@ -111,3 +111,14 @@ with open('Time_Stamps.csv','w') as file_handle:
         
 timestamps_graph.extend(timestamps)  
 df_timestamps=pd.read_csv('Time_Stamps.csv',parse_dates=True)
+
+
+source = pd.DataFrame({
+  'TIME': timestamps_graph,
+  'MOTION': motion_list_graph
+})
+
+alt.Chart(source).mark_line().encode(
+    x='TIME',
+    y='MOTION'
+)
