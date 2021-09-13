@@ -4,7 +4,7 @@ A motion and face (and eyes) detector built from scratch using opencv - python m
 
 Face and eye detection implemented using and Haar Cascade XML files.
 
-
+https://user-images.githubusercontent.com/88050198/133172021-e65c0270-cf37-4145-be06-8ba9d61b3728.mov
 
 Detects motion and respective timestamps are stored in a CSV file.
 
